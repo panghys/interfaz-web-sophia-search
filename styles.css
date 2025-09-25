@@ -1,33 +1,32 @@
 .barraprincipal {
     display: flex;
-    justify-content: space-around; /* Espaciado uniforme */
-    align-items: center; /* Centrar verticalmente */
-    background-color: #4b2dd0; /* Color de fondo */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b2dd0;
     padding: 0;
     margin: 0;
     list-style: none;
-    height: 80px; /* Alto de la barra */
-    border-radius: 20px;
+    height: 80px;
 }
 
 .barraprincipal li{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 2%;
 }
 
 .botonmenu {
     display: block;
     text-decoration: none;
-    color: white;
-    font-size: 18px;
+    color: #f2f2f2;
+    font-size: 25px;
     font-weight: bold;
-    padding: 20px 0; /* Ajusta el alto del botón */
+    padding: 20px 0;
     background-color: transparent;
     transition: background 0.3s;
 }
 
 .botonmenu:hover {
-    background-color: #3a23a7; /* Hover */
+    background-color: #3a23a7;
 }
 
 .logo{
@@ -37,6 +36,125 @@
     margin:auto;
 }
 
-body{
-    background: #f2f2f2;
+.p1{
+    margin:auto;
+    width: 500px;
+    margin-top: 12%;
+    margin-right: 36%;
 }
+
+.imagen{
+    width: 600px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: aparecer 6s ease-in-out forwards; 
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.textoportada{
+    color:#f2f2f2;
+    font-family: Vaani;
+    font-size: larger;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: aparecer 10s ease-in-out forwards; 
+}
+
+
+
+.barrabacan{
+    background: linear-gradient(to bottom, #000000, #3b3836);
+    height: 800px;
+}
+.barrabacan2{
+    background: linear-gradient(to bottom, #3b3836, #000000);
+    height: 1000px;
+}
+
+
+.presentacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.texto2{
+    width: 400px;
+    height: 400px;
+    font-family: Vaani;
+    font-size: 25px;
+    color:#f2f2f2;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.imagen2{
+    width: 600px;
+    height: auto;
+    padding-right: 180px;
+    border-radius: 5%;
+}
+
+.finalpag{
+    width: 100%;
+    height: 200px;
+    background: #532ece;
+
+}
+
+.formulariofinal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+
+.textofinal1{
+    display: inline-block;
+    margin: 0 10%;
+
+}
+
+.enunciadolista{
+    font-size: large;
+    font-family: Vaani;
+    text-align: right;
+}
+
+
+body{
+    background: #3b3836;
+    margin: 0;
+    padding: 0;
+}
+
