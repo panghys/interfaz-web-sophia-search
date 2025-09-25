@@ -1,0 +1,42 @@
+.barraprincipal {
+    display: flex;
+    justify-content: space-around; /* Espaciado uniforme */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #4b2dd0; /* Color de fondo */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 80px; /* Alto de la barra */
+    border-radius: 20px;
+}
+
+.barraprincipal li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.botonmenu {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0; /* Ajusta el alto del botón */
+    background-color: transparent;
+    transition: background 0.3s;
+}
+
+.botonmenu:hover {
+    background-color: #3a23a7; /* Hover */
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin:auto;
+}
+
+body{
+    background: #f2f2f2;
+}
